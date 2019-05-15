@@ -10,6 +10,7 @@ sudo apt install libtool
 sudo apt install flex
 sudo apt install bison
 sudo apt-get install openmpi-doc openmpi-bin libopenmpi-dev
+sudo apt-get install gfortran
 sudo apt-get install zlib1g-dev
 sudo apt-get install libexpat1-dev
 sudo apt-get install python
