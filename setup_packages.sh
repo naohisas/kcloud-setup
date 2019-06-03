@@ -17,4 +17,5 @@ sudo apt-get install python
 sudo apt-get install python-pip
 pip install numpy
 pip install scipy
+sudo apt-get install libegl1-mesa-dev
 
