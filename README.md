@@ -188,8 +188,8 @@ $ KVS_DIR=~/local/kvs.osmesa make install
 $ cd ~/local
 
 a) Link kvs to kvs.osmesa if you want to use OSMesa-based KVS.
-$ ln -s kvs kvs.osmesa
+$ ln -s kvs.osmesa kvs
 
 b) Link kvs to kvs.egl if you want to use EGL-based KVS.
-$ ln -s kvs kvs.egl
+$ ln -s kvs.egl kvs
 ```
