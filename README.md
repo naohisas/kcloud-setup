@@ -178,8 +178,8 @@ KVS_SUPPORT_OSMESA    = 0
 8. Compile and install the KVS with SupportEGL.
 
 ```sh
-$ KVS_DIR=~/local/kvs.osmesa make rebuild
-$ KVS_DIR=~/local/kvs.osmesa make install
+$ KVS_DIR=~/local/kvs.egl make rebuild
+$ KVS_DIR=~/local/kvs.egl make install
 ```
 
 9. Create KVS directory as a symbolic link.
