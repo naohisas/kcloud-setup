@@ -87,10 +87,10 @@ llvmprefix="${LLVM_PREFIX:-${HOME}/local/llvm}
 
 e) Enable 'buildllvm'. (1:download and build LLVM or 0:not)
 buildllvm="${LLVM_BUILD:-1}
-
-f) Modify the URLs for downloading OSMesa at line 376 as follows.
-curl $curlopts -O "ftp://ftp.freedesktop.org/pub/mesa/mesa-${mesaversion}.tar.gz" || curl $curlopts -O "ftp://ftp.freedesktop.org/pub/mesa/${mesaversion}/mesa-${mesaversion}.tar.gz" || curl $curlopts -O "ftp://ftp.freedesktop.org/pub/mesa/older-versions/`echo ${mesaversion} | cut -d '.' -f 1`.x/mesa-${mesaversion}.tar.gz"
 ```
+
+~~f) Modify the URLs for downloading OSMesa at line 376 as follows.
+curl $curlopts -O "ftp://ftp.freedesktop.org/pub/mesa/mesa-${mesaversion}.tar.gz" || curl $curlopts -O "ftp://ftp.freedesktop.org/pub/mesa/${mesaversion}/mesa-${mesaversion}.tar.gz" || curl $curlopts -O "ftp://ftp.freedesktop.org/pub/mesa/older-versions/`echo ${mesaversion} | cut -d '.' -f 1`.x/mesa-${mesaversion}.tar.gz"~~
 
 5. Compile and install OSMesa.
 
